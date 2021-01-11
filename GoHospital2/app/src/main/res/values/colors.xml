@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3DB24A</color>
+    <color name="colorAccent">#003191</color>
+    <color name="btn_bg">#3DB24A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="no_color">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="fb_bg">#176AE6</color>
+    <color name="twitter_bg">#1CB7EB</color>
+    <color name="blue">#00BFFF</color>
+    <color name="profile_bg">#A3E5FB</color>
+    <color name="orange">#FFFFFF</color>
+    <color name="orange1">#80FF9800</color>
+    <color name="transper">#54FFFFFF</color>
+    <color name="red">#BCFF0000</color>
+    <color name="opecity_btn_bg">#4D5BB85F</color>
+    <color name="opecity_bg">#80FFFFFF</color>
+    <color name="login">#805BB85F</color>
+</resources>

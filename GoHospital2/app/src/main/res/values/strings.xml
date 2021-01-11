@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Go Hospital</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_driver_home">Map</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="otp_verification_code">CO\nDE</string>
+    <string name="forgot_details">Provide your account email for which you want to reset your password</string>
+    <string name="make_selection">Make\nSelection</string>
+    <string name="new_credential">New\nCredential</string>
+    <string name="new_credential_details">Your identity has been verified\nSet your new password</string>
+    <string name="password_updated">password\nupdated</string>
+    <string name="registration_successfull">Registration\nsuccessfull</string>
+    <string name="about_apps">This is a Ambulance service apps. Also ride sharing apps. We want to make ambulance service more easy and helpful.</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInAndUp.MakeSelection"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/make_selection"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/opecity_btn_bg"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/mobile_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mobile_custom_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/mobile_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Via SMS:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/mobile_icon" />
+
+            <TextView
+                android:id="@+id/mobile_description"
+                android:layout_width="241dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mobile_title"
+                android:layout_toRightOf="@id/mobile_icon"
+                android:text="+880 01942-504420"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/no_color"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/opecity_btn_bg"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/mail_icon"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mail_custom_icon"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/mail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Via Mail:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/mail_icon" />
+
+            <TextView
+                android:id="@+id/mail_description"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mail_title"
+                android:layout_toRightOf="@id/mail_icon"
+                android:text="mdimranh.cse@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/no_color"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "932531588337",
+    "firebase_url": "https://gohospital-e0671.firebaseio.com",
+    "project_id": "gohospital-e0671",
+    "storage_bucket": "gohospital-e0671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932531588337:android:0f9d6dd12b890175b82d50",
+        "android_client_info": {
+          "package_name": "com.greenleaf.gohospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "932531588337-pcbkhvv90q6ka6jh5ct9e7dh9j44r5h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greenleaf.gohospital",
+            "certificate_hash": "bff06b383f85c646fb89a5d1ff72e53706479b6b"
+          }
+        },
+        {
+          "client_id": "932531588337-arivmef2t8fnj5f61kniairgnbk0k1e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-JxcQxJAu3PJeceDv_kX2rCpQil31MLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "932531588337-arivmef2t8fnj5f61kniairgnbk0k1e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

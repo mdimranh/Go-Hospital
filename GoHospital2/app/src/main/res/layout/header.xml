@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:orientation="vertical"
+    android:background="@drawable/head_back"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/profile_pic" />
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Md Imran Hossain"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+880 01942-504420"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

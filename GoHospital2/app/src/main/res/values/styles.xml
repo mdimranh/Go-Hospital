@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#004201</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="navigationTheme">
+
+        <item name="colorPrimary">@color/btn_bg</item>
+
+    </style>
+
+</resources>
